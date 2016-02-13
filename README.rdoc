@@ -1,0 +1,5 @@
+== Dawn.js
+
+Hi Dawn!  First iteration of the progress slider for http://playerprophet.com/thosewithoutshadows/.  Styling is rough but this was my initial vision for it.  It's a work in progress definitely; I'll push any updates here when they occur.
+
+Christian
