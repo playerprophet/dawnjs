@@ -12,7 +12,7 @@
   <a href="i-00-06.php" class="link">6</a>
 
   <h4>1. The Prince</h4>
-  <a href="i-01-00.php" class="link">1</a>
+  <a href="i-01-00.php" class="link">0</a>
   <a href="i-01-01.php" class="link">1</a>
   <a href="i-01-02.php" class="link">2</a>
   <a href="i-01-03.php" class="link">3</a>

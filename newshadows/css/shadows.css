@@ -27,9 +27,6 @@ body {
   border-style: none;
   border-color: transparent;
   background-color: #FFFFFF;
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
   margin: 20px auto;
   padding: 10px 150px;
   font-family: Georgia, sans-serif;
@@ -43,21 +40,28 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF83272D', endColorstr='#FFF12300', GradientType=1)";
     border-style: none;
     border-color: transparent;
-    background-size: 100% auto;
 }
 
 .reading-header {
   height: 75px;
+  background-size: 100% auto;
 }
 
 .main-header {
   height: 116px;
+  max-width: 600px;
+  display: inline-block;
 }
 
 .header-container {
   max-width: 1000px;
+  min-width: 1000px;
   margin: 0 auto;
   text-align: center;
+}
+
+.headerimage {
+  display: inline-block;
 }
 
 .left {
@@ -78,6 +82,7 @@ body {
   float: left;
   vertical-align: bottom;
   margin-top: 20px;
+  display: inline-block;
 }
 
 .menu-item {

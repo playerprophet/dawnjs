@@ -64,6 +64,12 @@ function navigateTo(codeClicked) {
   $('#footer-bar').hide();
   $('#content').fadeOut('slow', function() {
     $('#content').load("pages/" + codeClicked + ".php", function() {
+      if(codeClicked.indexOf('i-') !== -1) {
+        $('#header-switcher').load("read-header.php");
+      } else {
+        $('#header-switcher').load("main-header.php");
+      }
+
       $('#content').fadeIn('slow');
       $('#footer-bar').fadeIn('slow');
     });

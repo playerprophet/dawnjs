@@ -33,22 +33,30 @@
 
   <div class="news-links">
     <p>
-      <span>past updates</span>
+      <span>
+        <a href='http://playerprophet.com/blog/category/those-without-shadows/'>past updates</a>
+      </span>
       <span>/</span>
-      <span>patreon</span>
+      <span>
+        <a href="http://www.patreon.com/playerprophet">patreon</a>
+      </span>
     </p>
   </div>
 
+  <br />
+  <br />
+  <br />
+
   <div class="thanks center">
-    <p>
+    <div class="center">
       Special Thanks goes out to
-    </p>
-    <p>
+    </div>
+    <div class="center">
       Joe Giles, Jennifer Geisbrecht, Tim Blenkhorn, Nick Ramey, Ewen Cluney, C.K. Ellis and my creative team.
-    </p>
-    <p>
+    </div>
+    <div class="center">
       Also thanks to Team Pärvelö, Sanmagumo, Penguin King Games, Toxic Blossom, The Last Game Store, Bento Miso and Strange Adventures.
-    </p>
+    </div>
   </div>
 
 </div>

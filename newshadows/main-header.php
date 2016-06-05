@@ -1,13 +1,9 @@
-<nav class="header main-header">
-  <div class="header-container">
-
+<div class="header-container">
+  <nav class="header main-header">
     <?php include 'header-menu.php' ?>
-
-    <div class="headerimage">
-      <a href="news.php" class="link">
-        <img src="images/tswheader.png" height="116px"/>
-      </a>
-    </div>
-
+  </nav><div class="headerimage">
+    <a href="news.php" class="link">
+      <img src="images/tswheader.png" height="116px" />
+    </a>
   </div>
-</nav>
+</div>

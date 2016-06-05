@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div id="header-bar">
+    <div id="header-switcher">
       <?php include 'main-header.php' ?>
     </div>
 
