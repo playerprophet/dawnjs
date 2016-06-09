@@ -109,10 +109,19 @@ body {
   position: absolute;
     left: 200px;
     top: 75px;
-  background-color: #2f313e;
+  background-color: #ffffff;
   width: 185px;
   border-radius: 10px;
   border: 2px #D90000 solid;
+  opacity: 0.95;
+}
+
+.submenu-label {
+  color: #2f313e;
+}
+
+.submenu-label:hover {
+  color: #a50000 !important;
 }
 
 .submenu-item {
@@ -120,7 +129,7 @@ body {
 }
 
 .read-hover:hover {
-  color: #cfcfcf;
+  color: #ffe2e2;
 }
 
 #headerwords {

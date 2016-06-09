@@ -20,7 +20,7 @@
 
       <li class="menuitem-container submenu-item">
         <a class="menuitem link" href="i-00-01.php">
-          <div class="menuitem-label">
+          <div class="menuitem-label submenu-label">
             <p>First Page</p>
           </div>
         </a>
@@ -28,7 +28,7 @@
 
       <li class="menuitem-container submenu-item">
         <a class="menuitem link" href="i-04-01.php">
-          <div class="menuitem-label">
+          <div class="menuitem-label submenu-label">
             <p>Latest Update</p>
           </div>
         </a>
@@ -36,7 +36,7 @@
 
       <li class="menuitem-container submenu-item">
         <a class="menuitem link" href="archive.php">
-          <div class="menuitem-label">
+          <div class="menuitem-label submenu-label">
             <p>Archive</p>
           </div>
         </a>
@@ -44,7 +44,7 @@
 
       <li class="menuitem-container submenu-item">
         <div class="menuitem link">
-          <div class="menuitem-label">
+          <div class="menuitem-label submenu-label">
             <p>Book 1: Mind</p>
           </div>
         </div>
