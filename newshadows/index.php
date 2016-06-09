@@ -6,6 +6,8 @@
     <meta name="description" content="">
     <link rel="stylesheet" type="text/css" href="css/progress.css">
     <link rel="stylesheet" type="text/css" href="css/shadows.css">
+
+    <script type="application/javascript" src="scripts/jquery-1.8.3.min.js"></script>
   </head>
 
   <body>
@@ -13,7 +15,7 @@
       <?php include 'main-header.php' ?>
     </div>
 
-    <div id="content">
+    <div id="content" onmouseover="$('.submenu').fadeOut();">
       <?php include 'pages/news.php' ?>
     </div>
 

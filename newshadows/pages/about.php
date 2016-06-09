@@ -121,12 +121,17 @@
 <img src="images/christian01.jpg" width="250px" height="250px" class="right"/>
 <br /><br />
 <h3>Christian DeWolf</h3>
-<p>This nerd converted this site over from an old system and made a few improvements. He likes databases, stones shaped like eggs, and writing. He once wrote a book called Ghostcrime, and right now he's writing this description in third-person to keep it consistent with the other ones.</p>
+<p>This <i>nerd</i> converted this site over from an old system and made a few improvements along the way. He likes databases, egg-shaped stones, and writing ghost/robot fiction. He once wrote a book called Ghostcrime, and right now he's writing this description in third-person to keep it consistent with the other ones.</p>
 <p>
   <a href="http://www.christiandewolf.com">
     Website
   </a>
+  <span>/</span>
+  <a href="http://www.twitter.com/dewolfchristian">
+    Twitter
+  </a>
 </p>
+
 
 <br />
 <br />
@@ -151,3 +156,10 @@
     RSS
   </a>
 </p>
+
+<script type="text/javascript">
+  $('.link').click(function(){
+    switchPage(this);
+    return false;
+  });
+</script>

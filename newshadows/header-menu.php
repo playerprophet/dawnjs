@@ -1,50 +1,50 @@
 <div class="header-select">
-  <div  class="menu-item-container">
-   <a class="menu-item link" href="news.php">
-     <div class="menu-item-label">
+  <div  class="menuitem-container">
+   <a class="menuitem link" href="news.php">
+     <div class="menuitem-label" onmouseover="$('.submenu').fadeOut();">
        <p>Main</p>
      </div>
    </a>
   </div>
 
-  <div class="menu-item-container">
-    <a class="menu-item menu-item-with-submenu link" href="archive.php">
-      <div class="menu-item-label">
+  <div class="menuitem-container">
+    <a class="menuitem menuitem-with-submenu link" href="archive.php">
+      <div class="menuitem-label read-hover" onmouseover="$('.submenu').fadeIn();">
         <p>Read</p>
       </div>
     </a>
   </div>
 
-  <div class="SubMenu MenuLevel1" style="display:none;">
-    <ul class="SubMenuView">
+  <div class="submenu" style="display:none;">
+    <ul class="submenu-view">
 
-     <li class="menu-item-container">
-       <a class="menu-item menu-item-with-submenu link" href="">
-         <div class="menu-item-label">
-           <p>First Page</p>
-         </div>
-       </a>
-     </li>
+      <li class="menuitem-container submenu-item">
+        <a class="menuitem link" href="i-00-01.php">
+          <div class="menuitem-label">
+            <p>First Page</p>
+          </div>
+        </a>
+      </li>
 
-      <li class="menu-item-container">
-        <a class="menu-item menu-item-with-submenu link" href="">
-          <div class="menu-item-label">
+      <li class="menuitem-container submenu-item">
+        <a class="menuitem link" href="i-04-01.php">
+          <div class="menuitem-label">
             <p>Latest Update</p>
           </div>
         </a>
       </li>
 
-      <li class="menu-item-container">
-        <a class="menu-item menu-item-with-submenu link" href="archive.php">
-          <div class="menu-item-label">
+      <li class="menuitem-container submenu-item">
+        <a class="menuitem link" href="archive.php">
+          <div class="menuitem-label">
             <p>Archive</p>
           </div>
         </a>
       </li>
 
-      <li class="menu-item-container">
-        <div class="menu-item menu-item-with-submenu link">
-          <div class="menu-item-label">
+      <li class="menuitem-container submenu-item">
+        <div class="menuitem link">
+          <div class="menuitem-label">
             <p>Book 1: Mind</p>
           </div>
         </div>
@@ -53,19 +53,26 @@
     </ul>
   </div>
 
-  <div class="menu-item-container">
-    <a class="menu-item menu-item-with-submenu link" href="about.php">
-      <div class="menu-item-label">
+  <div class="menuitem-container">
+    <a class="menuitem link" href="about.php">
+      <div class="menuitem-label" onmouseover="$('.submenu').fadeOut();">
         <p>About</p>
       </div>
     </a>
   </div>
 
-  <div class="menu-item-container">
-    <a class="menu-item menu-item-with-submenu" href="http://playerprophet.storenvy.com/">
-      <div class="menu-item-label">
+  <div class="menuitem-container">
+    <a class="menuitem" href="http://playerprophet.storenvy.com/">
+      <div class="menuitem-label" onmouseover="$('.submenu').fadeOut();">
         <p>Shop</p>
       </div>
     </a>
   </div>
 </div>
+
+<script type="text/javascript">
+  $('.link').click(function(){
+    switchPage(this);
+    return false;
+  });
+</script>

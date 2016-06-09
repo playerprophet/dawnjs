@@ -49,7 +49,7 @@ function findChapterByCode(chapterCode) {
 }
 
 function switchPage(context) {
-  var codeOfClicked = $(context).attr('href').substr(0,$(context).attr('href').length-4);
+  var codeOfClicked = $(context).attr('href').substr(0, $(context).attr('href').length - 4);
 
   hash = getHashOfWindow();
   if(hash !== codeOfClicked) {
