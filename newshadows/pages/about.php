@@ -41,11 +41,11 @@
 <h3>Dawn "playerprophet" Davis</h3>
 <p>An indie artist traveling between Halifax, Nova Scotia, Canada and Helsinki, Finland juggling projects in illustration, writing and comics. Her work is inspired by JRPGs, religion and iconography. She does all of the writing and most of the artwork for Those Without Shadows.</p>
 <p>
-  <a href="http://www.playerprophet.com/">
+  <a href="http://www.playerprophet.com/" target="_blank">
     Website
   </a>
   <span>/</span>
-  <a href="http://www.twitter.com/playerprophet">
+  <a href="http://www.twitter.com/playerprophet" target="_blank">
     Twitter
   </a>
   <span>/</span>
@@ -53,7 +53,7 @@
     E-mail
   </a>
   <span>/</span>
-  <a href="http://www.patreon.com/playerprophet">
+  <a href="http://www.patreon.com/playerprophet" target="_blank">
     Patreon
   </a>
 </p>
@@ -66,11 +66,11 @@
 <h3>Clark Powell</h3>
 <p>Composer for video games! Also a musician for other stuff, sometimes.</p>
 <p>
-  <a href="http://clarkpowell.bandcamp.com/">
+  <a href="http://clarkpowell.bandcamp.com/" target="_blank">
     Bandcamp
   </a>
   <span>/</span>
-  <a href="http://plazmataz.tumblr.com">
+  <a href="http://plazmataz.tumblr.com" target="_blank">
     Tumblr
   </a>
   <span>/</span>
@@ -78,7 +78,7 @@
     E-mail
   </a>
   <span>/</span>
-  <a href="http://www.patreon.com/plazmataz">
+  <a href="http://www.patreon.com/plazmataz" target="_blank">
     Patreon
   </a>
 </p>
@@ -108,7 +108,7 @@
 <h3>Ella Kurki</h3>
 <p>TWS graphic designer, student, and Dawn's loving wife who helps her in creative endeavors by frowning at her poor composition choices. Ella is also a talented illustrator.</p>
 <p>
-  <a href="http://dodostad.tumblr.com">
+  <a href="http://dodostad.tumblr.com" target="_blank">
     Website
   </a>
 </p>
@@ -123,11 +123,11 @@
 <h3>Christian DeWolf</h3>
 <p>This <i>nerd</i> converted this site over from an old system and made a few improvements along the way. He likes databases, egg-shaped stones, and writing ghost/robot fiction. He once wrote a book called Ghostcrime, and right now he's writing this description in third-person to keep it consistent with the other ones.</p>
 <p>
-  <a href="http://www.christiandewolf.com">
+  <a href="http://www.christiandewolf.com" target="_blank">
     Website
   </a>
   <span>/</span>
-  <a href="http://www.twitter.com/dewolfchristian">
+  <a href="http://www.twitter.com/dewolfchristian" target="_blank">
     Twitter
   </a>
 </p>
@@ -140,15 +140,15 @@
 
 <h1 class="center">Follow us here</h1>
 <p class="center">
-  <a href="http://thosewithoutshadows.tumblr.com/">
+  <a href="http://thosewithoutshadows.tumblr.com/" target="_blank">
     Tumblr
   </a>
   <span>|</span>
-  <a href="http://www.twitter.com/playerprophet">
+  <a href="http://www.twitter.com/playerprophet" target="_blank">
     Twitter
   </a>
   <span>|</span>
-  <a href="http://www.facebook.com/thosewithoutshadows">
+  <a href="http://www.facebook.com/thosewithoutshadows" target="_blank">
     Facebook
   </a>
   <span>|</span>

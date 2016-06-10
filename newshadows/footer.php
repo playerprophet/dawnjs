@@ -8,6 +8,6 @@
 </div>
 
 <div id="footer-copyright">
- <p>Those Without Shadows © Dawn Davis 2016</p>
+  <p>Those Without Shadows &copy; Dawn Davis 2016</p>
 </div>
 

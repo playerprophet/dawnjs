@@ -6,9 +6,13 @@
 
   <div class="center">
     <div class="news-nav">
-      <a href="i-00-01.php" class="link">First</a>
-      <a href="archive.php" class="link">Archive</a>
-      <a href="i-04-01.php" class="link">Last</a>
+      <p>
+        <a href="i-00-01.php" class="link">First</a>
+        <span>.</span>
+        <a href="archive.php" class="link">Archive</a>
+        <span>.</span>
+        <a href="i-04-01.php" class="link">Last</a>
+      </p>
     </div>
   </div>
 
@@ -34,11 +38,11 @@
   <div class="news-links">
     <p>
       <span>
-        <a href='http://playerprophet.com/blog/category/those-without-shadows/'>past updates</a>
+        <a href='http://playerprophet.com/blog/category/those-without-shadows/' target="_blank">past updates</a>
       </span>
       <span>/</span>
       <span>
-        <a href="http://www.patreon.com/playerprophet">patreon</a>
+        <a href="http://www.patreon.com/playerprophet" target="_blank">patreon</a>
       </span>
     </p>
   </div>
@@ -55,7 +59,14 @@
       Joe Giles, Jennifer Geisbrecht, Tim Blenkhorn, Nick Ramey, Ewen Cluney, C.K. Ellis and my creative team.
     </div>
     <div class="center">
-      Also thanks to Team Pärvelö, Sanmagumo, Penguin King Games, Toxic Blossom, The Last Game Store, Bento Miso and Strange Adventures.
+      Also thanks to
+      <a href="http://www.teamparvelo.com" target="_blank">Team Pärvelö</a>,
+      <a href="https://sites.google.com/site/sanmagumo/" target="_blank">Sanmagumo</a>,
+      <a href="http://www.penguinking.com" target="_blank">Penguin King Games</a>,
+      <a href="https://www.facebook.com/ToxicBlossom" target="_blank">Toxic Blossom</a>,
+      <a href="http://www.thelastgamestore.com" target="_blank">The Last Game Store</a>,
+      <a href="https://bentomiso.com" target="_blank">Bento Miso</a> and
+      <a href="http://www.strangeadventures.com" target="_blank">Strange Adventures</a>.
     </div>
   </div>
 
