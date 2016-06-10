@@ -1,10 +1,9 @@
 <div class="chapter">
-  <p></p>
-  <p></p>
-  <p></p>
+
+  <p>To you, my comrade.</p>
 
   <div class="center">
-    <img src="images/i0106.jpg" class="story-image" width="500" height="700">
+    <img src="images/01.jpg" class="story-image" width="500" height="350">
   </div>
 
 </div>

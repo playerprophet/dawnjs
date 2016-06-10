@@ -43,12 +43,12 @@
 
   <h4>4. The Star</h4>
   <a href="i-04-01.php" class="link">1</a>
-  <a href="i-04-02.php" class="link">2</a>
-  <a href="i-04-03.php" class="link">3</a>
-  <a href="i-04-04.php" class="link">4</a>
-  <a href="i-04-05.php" class="link">5</a>
-  <a href="i-04-06.php" class="link">6</a>
-  <a href="i-04-07.php" class="link">7</a>
+  2
+  3
+  4
+  5
+  6
+  7
 </div>
 
 <script type="text/javascript">
