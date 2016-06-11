@@ -11,7 +11,7 @@ $(document).ready(function() {
     }
 
     if(page){ navigateTo(page); }
-  };
+  }
 
   $('.link').click(function(){
     switchPage(this);
@@ -24,6 +24,49 @@ $(document).ready(function() {
 
 function getHashOfWindow() {
   return window.location.hash.substr(1);
+}
+
+function nextPage() {
+  var code = getHashOfWindow();
+
+  if( getPageNumFromCode(code) || getPageNumFromCode(code) === 0 ) {
+    navigateTo( "i-0" + getChapterNumFromCode(code) + "-" + (getPageNumFromCode(code) + 1 < 10 ? "0" : "") + (getPageNumFromCode(code) + 1) );
+  }
+  scrollToTop();
+}
+
+function nextChapter() {
+  var code = getHashOfWindow();
+  if( getPageNumFromCode(code) ) {
+    navigateTo( "i-0" + (getChapterNumFromCode(code) + 1) + "-0" + chapters[getChapterNumFromCode(code) + 1].startPage );
+  }
+  scrollToTop();
+}
+
+function calculateNextButton() {
+  var code = getHashOfWindow();
+
+  if( findChapterByCode(code) ) {
+    if( chapters[ getChapterNumFromCode(code) ].endPage >= (getPageNumFromCode(code)) + 1 ) {
+      // not yet end of chapter -- next page still available
+      $('.next-page').removeClass('hidden');
+      $('.next-chapter').addClass('hidden');
+    } else {
+      if( chapters[ getChapterNumFromCode(code) + 1 ] ) {
+        // end of chapter -- and there is another one afterwards
+        $('.next-page').addClass('hidden');
+        $('.next-chapter').removeClass('hidden');
+      } else {
+        // final page of final chapter -- hide all
+        $('.next-page').addClass('hidden');
+        $('.next-chapter').addClass('hidden');
+      }
+    }
+  } else {
+    // not a story page -- hide all
+    $('.next-page').addClass('hidden');
+    $('.next-chapter').addClass('hidden');
+  }
 }
 
 function pageExists(pageName) {
@@ -39,13 +82,20 @@ function pageExists(pageName) {
   }
 }
 
-function findChapterByCode(chapterCode) {
-  var chapterNum;
-  var pageNum;
-  chapterNum = parseInt( chapterCode.substr(2, 4) );
-  pageNum = parseInt( chapterCode.substr(chapterCode.length - 2, chapterCode.length) );
+function findChapterByCode(code) {
+  // from a string like 'i-03-02'
+  var chapterNum = getChapterNumFromCode(code);
+  var pageNum = getPageNumFromCode(code);
 
-  return ( chapters[chapterNum] && chapters[chapterNum].endPage <= pageNum );
+  return ( chapters[chapterNum] && chapters[chapterNum].endPage >= pageNum );
+}
+
+function getChapterNumFromCode(code) {
+  return parseInt( code.substr(2, 4) );
+}
+
+function getPageNumFromCode(code) {
+  return parseInt( code.substr(code.length - 2, code.length) );
 }
 
 function switchPage(context) {
@@ -63,12 +113,13 @@ function navigateTo(codeClicked) {
   window.location.hash = codeClicked;
   $('#footer-bar').hide();
   $('#content').fadeOut('slow', function() {
-    $('#content').load("pages/" + codeClicked + ".php", function() {
+    $('#page-switcher').load("pages/" + codeClicked + ".php", function() {
       if(codeClicked.indexOf('i-') !== -1) {
         $('#header-switcher').load("read-header.php");
       } else {
         $('#header-switcher').load("main-header.php");
       }
+      calculateNextButton();
 
       $('#content').fadeIn('slow');
       $('#footer-bar').fadeIn('slow');

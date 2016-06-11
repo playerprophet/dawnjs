@@ -29,7 +29,12 @@ a:hover {
   text-align: center;
 }
 
+.hidden {
+  display: none !important;
+}
+
 #content {
+  position: relative;
   text-align: left;
   z-index: 0;
   width: 700px;
@@ -39,6 +44,33 @@ a:hover {
   margin: 20px auto;
   padding: 10px 150px;
   font-family: Georgia, sans-serif;
+
+/*  -webkit-box-shadow: -5px -5px 2px rgba(0,0,0,0.2), -7px -5px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: -5px -5px 2px rgba(0,0,0,0.2), -7px -5px 2px rgba(0,0,0,0.1);
+  box-shadow: -5px -5px 2px rgba(0,0,0,0.2), -7px -5px 2px rgba(0,0,0,0.1);*/
+}
+
+.pageturny {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 80px 80px 0 0;
+  border-style: solid;
+  border-color: #E8CCCC #F7F1E8 #F7F1E8 #E8CCCC ;
+  background: #E8CCCC;
+  transition: 0.5s ease-in-out all;
+  cursor: pointer;
+
+  -webkit-box-shadow: -3px 0 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: -3px 0 0px rgba(0,0,0,0.2);
+  box-shadow: -3px 0 0px rgba(0,0,0,0.2);
+  /* Firefox 3.0 damage limitation */
+  display: block; width: 0;
+}
+
+.pageturny:hover {
+  border-width: 120px 120px 0 0 !important;
 }
 
 /* Header Stuff */
@@ -103,7 +135,6 @@ a:hover {
   display: inline-block;
   white-space: nowrap;
   word-wrap: normal;
-
 }
 
 .menuitem-label {
@@ -124,6 +155,7 @@ a:hover {
   border-radius: 10px;
   border: 2px #D90000 solid;
   opacity: 0.95;
+  z-index: 100;
 }
 
 .submenu-label {
@@ -155,7 +187,6 @@ a:hover {
 }
 
 /******/
-
 
 .left {
   float: left;
@@ -196,6 +227,5 @@ a:hover {
 
   #content {
     padding: 15px 50px;
-
   }
 }

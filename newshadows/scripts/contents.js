@@ -26,6 +26,13 @@ var chapters = [
     startPage: 1,
     endPage: 6,
     games: [ ]
+  },
+  {
+    chapterNum: 4,
+    title: "The Star",
+    startPage: 1,
+    endPage: 1,
+    games: [ ]
   }
 ];
 

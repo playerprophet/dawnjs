@@ -43,11 +43,11 @@
       </li>
 
       <li class="menuitem-container submenu-item">
-        <div class="menuitem link">
+        <a class="menuitem link" href="i-01-00.php">
           <div class="menuitem-label submenu-label">
             <p>Book 1: Mind</p>
           </div>
-        </div>
+        </a>
       </li>
 
     </ul>

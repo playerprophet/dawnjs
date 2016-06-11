@@ -16,7 +16,13 @@
     </div>
 
     <div id="content" onmouseover="$('.submenu').fadeOut();">
-      <?php include 'pages/news.php' ?>
+      <div id="page-switcher">
+        <?php include 'pages/news.php' ?>
+      </div>
+      <div id="next-wrapper">
+        <div class="next-chapter hidden pageturny" onclick="nextChapter();"></div>
+        <div class="next-page hidden pageturny" onclick="nextPage();"></div>
+      </div>
     </div>
 
     <div id="footer-bar">
