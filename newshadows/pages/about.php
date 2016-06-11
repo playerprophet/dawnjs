@@ -34,7 +34,7 @@
 <br />
 <br />
 
-<img src="images/dawn01.jpg" width="250px" height="250px"  class="right"/>
+<img src="images/dawn01.jpg" width="250px" height="250px" class="team-image team-right"/>
 <h2>Team</h2>
 <br />
 
@@ -61,7 +61,7 @@
 <br />
 <br />
 
-<img src="images/clark01.jpg" width="250px" height="250px" class="left"/>
+<img src="images/clark01.jpg" width="250px" height="250px" class="team-image team-left"/>
 <br /><br />
 <h3>Clark Powell</h3>
 <p>Composer for video games! Also a musician for other stuff, sometimes.</p>
@@ -88,7 +88,7 @@
 <br />
 <br />
 
-<img src="images/sean01.jpg" width="250px" height="250px" class="right"/>
+<img src="images/sean01.jpg" width="250px" height="250px" class="team-image team-right"/>
 <br /><br />
 <h3>Sean Beauchamp</h3>
 <p>A tie-wearing working stiff who secretly dreams of one day being good at the harmonica, Sean was able to fake programming skills well enough to get a position as the TWS head code-monkey. He handles all script stuff directly related to the story's game-segments, and many aspects of web management.</p>
@@ -103,7 +103,7 @@
 <br />
 <br />
 
-<img src="images/ella01.jpg" width="250px" height="250px" class="left"/>
+<img src="images/ella01.jpg" width="250px" height="250px" class="team-image team-left"/>
 <br /><br />
 <h3>Ella Kurki</h3>
 <p>TWS graphic designer, student, and Dawn's loving wife who helps her in creative endeavors by frowning at her poor composition choices. Ella is also a talented illustrator.</p>
@@ -118,7 +118,7 @@
 <br />
 <br />
 
-<img src="images/christian01.jpg" width="250px" height="250px" class="right"/>
+<img src="images/christian01.jpg" width="250px" height="250px" class="team-image team-right"/>
 <br /><br />
 <h3>Christian DeWolf</h3>
 <p>This <i>nerd</i> converted this site over from an old system and made a few improvements along the way. He likes databases, egg-shaped stones, and writing ghost/robot fiction. He once wrote a book called Ghostcrime, and right now he's writing this description in third-person to keep it consistent with the other ones.</p>

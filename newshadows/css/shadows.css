@@ -37,7 +37,7 @@ a:hover {
   position: relative;
   text-align: left;
   z-index: 0;
-  width: 700px;
+  max-width: 700px;
   border-style: none;
   border-color: transparent;
   background-color: #FFFFFF;
@@ -174,7 +174,7 @@ a:hover {
   color: #ffe2e2;
 }
 
-#headerwords {
+.headerwords {
   display: inline-block;
   max-height: 65px;
 }
@@ -188,12 +188,12 @@ a:hover {
 
 /******/
 
-.left {
+.team-left {
   float: left;
   margin-right: 20px;
 }
 
-.right {
+.team-right {
   float: right;
   margin-left: 20px;
 }
@@ -220,12 +220,28 @@ a:hover {
   margin: 20px 0;
 }
 
-@media screen and (max-width: 500px) {
-  #headerwords {
-    display: none;
+.wide-image {
+  margin: 20px 0 0 -150px;
+}
+
+@media screen and (max-width: 800px) {
+  .headerwords {
+    display: none !important;
   }
 
   #content {
     padding: 15px 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  #content {
+    padding: 15px 10px;
+  }
+
+  .team-left, .team-right {
+    float: none !important;
+    margin: 0 auto !important;
   }
 }

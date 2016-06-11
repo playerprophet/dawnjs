@@ -32,7 +32,7 @@
     Meanwhile, you can now read and play Those Without Shadows on your mobile device! Please give it a try! Thank you!
   </p>
   <p>
-    -Dawn & Team TWS
+    -Dawn &amp; Team TWS
   </p>
 
   <div class="news-links">
