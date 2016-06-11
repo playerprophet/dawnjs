@@ -143,3 +143,13 @@ function latestUpdate() {
   var lastPageOfFinalChapter = chapters[finalChapter].endPage;
   return "i-0" + finalChapter + "-" + ( lastPageOfFinalChapter >= 10 ? lastPageOfFinalChapter : "0" + lastPageOfFinalChapter );
 }
+
+function generateArchive() {
+  for (var i = 0; i < chapters.length; i++) {
+    $('#archive-contents').append("<h4>" + chapters[i].title + "</h4>");
+    for (var j = chapters[i].startPage; j < chapters[i].endPage + 1; j++) {
+      $('#archive-contents').append(
+        "<a href=\"i-0" + i + "-" + ( j >= 10 ? j : "0" + j ) + ".php\" class=\"link\">" + j + "</a> ");
+    }
+  }
+}
