@@ -27,7 +27,7 @@
       </li>
 
       <li class="menuitem-container submenu-item">
-        <a class="menuitem link" href="i-04-01.php">
+        <a class="menuitem latest-page-link" href="#">
           <div class="menuitem-label submenu-label">
             <p>Latest Update</p>
           </div>
@@ -73,6 +73,11 @@
 <script type="text/javascript">
   $('.link').click(function(){
     switchPage(this);
+    return false;
+  });
+
+  $('.latest-page-link').click(function(){
+    switchToLatestPage(this);
     return false;
   });
 </script>

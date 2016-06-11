@@ -103,7 +103,6 @@ function switchPage(context) {
   if(hash !== codeOfClicked) {
     navigateTo(codeOfClicked);
   }
-
   scrollToTop();
 };
 
@@ -128,3 +127,19 @@ function navigateTo(codeClicked) {
 function scrollToTop() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
 };
+
+function switchToLatestPage() {
+  latestPage = latestUpdate();
+
+  hash = getHashOfWindow();
+  if(hash !== latestPage) {
+    navigateTo(latestPage);
+  }
+  scrollToTop();
+}
+
+function latestUpdate() {
+  var finalChapter = chapters.length - 1;
+  var lastPageOfFinalChapter = chapters[finalChapter].endPage;
+  return "i-0" + finalChapter + "-" + ( lastPageOfFinalChapter >= 10 ? lastPageOfFinalChapter : "0" + lastPageOfFinalChapter );
+}
