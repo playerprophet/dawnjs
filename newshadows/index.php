@@ -3,9 +3,13 @@
 
   <head>
     <title>Those Without Shadows</title>
-    <meta name="description" content="">
+
+    <meta name="description" content="Long after her death, Anna wakes up in the afterlife and sets out to solve the mystery of what transpired. Those Without Shadows is the collection of stories of heroes from her past and her future in her effort to find answers.
+    ">
     <link rel="stylesheet" type="text/css" href="css/progress.css">
     <link rel="stylesheet" type="text/css" href="css/shadows.css">
+
+    <link rel="icon" href="favicon.png">
 
     <script type="application/javascript" src="scripts/jquery-1.8.3.min.js"></script>
   </head>
