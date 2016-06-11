@@ -2,6 +2,9 @@
   <a href="http://www.patreon.com/playerprophet">
     <img src="images/patreon.png" alt="Patreon" width="33" height="33">
   </a>
+
+  <!-- TODO insert social icons -->
+
   <a href="twsfeed.xml">
     <img src="images/rss.png" alt="RSS" width="33" height="33">
   </a>

@@ -9,8 +9,7 @@ $(document).ready(function() {
         page = hash;
       }
     }
-
-    if(page){ navigateTo(page); }
+    if(page) { navigateTo(page); }
   }
 
   $('.link').click(function(){
@@ -19,7 +18,6 @@ $(document).ready(function() {
   });
 
   loadPageFromHash();
-
 });
 
 function getHashOfWindow() {

@@ -37,7 +37,7 @@
       <li class="menuitem-container submenu-item">
         <a class="menuitem link" href="archive.php">
           <div class="menuitem-label submenu-label">
-            <p>Archive</p>
+            <p>Archive&nbsp;&nbsp;</p>
           </div>
         </a>
       </li>
