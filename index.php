@@ -10,8 +10,10 @@
     <link rel="stylesheet" type="text/css" href="css/shadows.css">
 
     <link rel="icon" href="favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <script type="application/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+
   </head>
 
   <body>
@@ -36,6 +38,7 @@
 
   <footer>
     <?php include_once 'tws_scripts.php' ?>
+
   </footer>
 
 </html>
