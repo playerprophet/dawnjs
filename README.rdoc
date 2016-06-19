@@ -1,5 +1,5 @@
 == Dawn.js
 
-Hi Dawn!  First iteration of the progress slider for http://playerprophet.com/thosewithoutshadows/.  Styling is rough but this was my initial vision for it.  It's a work in progress definitely; I'll push any updates here when they occur.
+Hi Dawn!  This is the main code for the new TWS site.  Images + story pages + games don't live here.  Enjoy the new site and I will continue to do things to it as needed.
 
 Christian
