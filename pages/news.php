@@ -1,4 +1,4 @@
-<div class="Otsikko">
+<div>
 
   <div class="center">
     <img src="images/shadowsdetail.jpg" class="story-image" width="700" height="352">
@@ -11,7 +11,7 @@
         <span>.</span>
         <a href="archive.php" class="link">Archive</a>
         <span>.</span>
-        <a href="i-04-01.php" class="link">Last</a>
+        <a href="#" class="latest-page-link">Last</a>
       </p>
     </div>
   </div>
@@ -72,9 +72,4 @@
 
 </div>
 
-<script type="text/javascript">
-  $('.link').click(function(){
-    switchPage(this);
-    return false;
-  });
-</script>
+<script type="text/javascript" src="scripts/linkscript.js"></script>

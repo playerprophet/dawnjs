@@ -157,9 +157,4 @@
   </a>
 </p>
 
-<script type="text/javascript">
-  $('.link').click(function(){
-    switchPage(this);
-    return false;
-  });
-</script>
+<script type="text/javascript" src="scripts/linkscript.js"></script>

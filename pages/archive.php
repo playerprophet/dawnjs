@@ -7,11 +7,7 @@
 
 </div>
 
+<script type="text/javascript" src="scripts/linkscript.js"></script>
 <script type="text/javascript">
-  $('.link').click(function(){
-    switchPage(this);
-    return false;
-  });
-
   generateArchive();
 </script>
