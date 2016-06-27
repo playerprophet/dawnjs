@@ -29,6 +29,20 @@ a:hover {
   text-align: center;
 }
 
+.wrap-text {
+  clear: left;
+  clear: right;
+  margin: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .hidden {
   display: none !important;
 }
@@ -244,4 +258,12 @@ a:hover {
     float: none !important;
     margin: 0 auto !important;
   }
+}
+
+#enchant-stage {
+position: relative;
+margin: 0 auto;
+padding: 0;
+width: 500px;
+height: 500px;
 }

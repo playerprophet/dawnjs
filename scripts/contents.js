@@ -4,7 +4,7 @@ var chapters = [
     title: "Prologue",
     startPage: 1,
     endPage: 6,
-    games: [ 4 ]
+    games: [ 4 ] // After Part 1
   },
   {
     chapterNum: 1,
@@ -31,8 +31,8 @@ var chapters = [
     chapterNum: 4,
     title: "The Star",
     startPage: 1,
-    endPage: 1,
-    games: [ ]
+    endPage: 3,
+    games: [ ] // Mind Dream Part 1
   }
 ];
 
