@@ -1,6 +1,6 @@
 <div class="chapter">
 
-  <div id="enchant-stage"></div>
+  <div id="enchant-stage"><strong>The game will return in a few days!</strong></div>
 
   <p>&gt;Move with arrow keys or WASD</p>
   <p>&gt;Select with Space or X</p>
@@ -8,12 +8,3 @@
   <p>&gt;Cancel with ESC or Z</p>
 
 </div>
-
-
-<script type="application/javascript" src="game1/enchant.js"></script>
-<script type="application/javascript" src="game1/ui.enchant.js"></script>
-<script type="application/javascript" src="game1/collisionArray.js"></script>
-<script type="application/javascript" src="game1/dialogue.js"></script>
-<script type="application/javascript" src="game1/Script.js"></script>
-
-<script>getTheGameUp();</script>

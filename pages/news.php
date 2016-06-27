@@ -1,7 +1,7 @@
-<div>
+<div class="Otsikko">
 
   <div class="center">
-    <img src="images/shadowsdetail.jpg" class="story-image" width="700" height="352">
+    <img src="images/shadowsdetail.jpg" alt="Minerva regards the viewer, a finger over her lips to quiet you." class="story-image" width="700" height="352">
   </div>
 
   <div class="center">
@@ -11,7 +11,7 @@
         <span>.</span>
         <a href="archive.php" class="link">Archive</a>
         <span>.</span>
-        <a href="#" class="latest-page-link">Last</a>
+        <a href="i-04-02.php" class="link">Last</a>
       </p>
     </div>
   </div>
@@ -20,16 +20,16 @@
     <h1>News</h1>
   </div>
 
-  <h3>05.09.16</h3>
-  <h1>A Change of Pace</h1>
+  <h3>15.06.16</h3>
+  <h1>Website Overhaul</h1>
   <p>
-    So I'll be at TCAF on the weekend if anyone else is in town! You can visit me and my musician Clark Powell on the third floor with Comics vs Games!
+    Welcome to the new Those Without Shadows site! It may not look much different, but everything in the back end has been changed. The game sections may not be operating right away, but they'll be back soon, too.
   </p>
   <p>
-    When I come back we'll be changing things for TWS a little bit. I took a survey on twitter some time ago asking people if they prefer when I post full chapters or if I should go page-by-page and the results were unanimously for the latter. While the animation thing I'm working on for Chapter 4 is taking some time, the first half of the chapter is almost ready to be posted, so! In the future I will post TWS when it is ready, instead of in big chunks all at once. Please look forward to an update next week! I'll build a buffer while we work on programming the animation.
+    As I mentioned last time, we'll be switching things so that TWS updates more often, with less content. I hope you'll appreciate the regularity, but let me know on the social media of your preference how you feel about it - if I'm somewhere, I'm on there as 'playerprophet'. I'm going to try to update weekly, with the understanding that game sections might take a little longer. Please bear with us! There's one coming up in chapter 4. Page 5 will be a game.
   </p>
   <p>
-    Meanwhile, you can now read and play Those Without Shadows on your mobile device! Please give it a try! Thank you!
+    Thank you for reading!
   </p>
   <p>
     -Dawn &amp; Team TWS
@@ -72,4 +72,9 @@
 
 </div>
 
-<script type="text/javascript" src="scripts/linkscript.js"></script>
+<script type="text/javascript">
+  $('.link').click(function(){
+    switchPage(this);
+    return false;
+  });
+</script>
